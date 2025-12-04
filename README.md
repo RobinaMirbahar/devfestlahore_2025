@@ -1,4 +1,4 @@
-# 🌍 TravelMate AI — DevFest 2025 Workshop Project
+# 🌍 TravelMate AI — DevFest Lahore 2025 Workshop 
 
 [![DevFest 2025](https://img.shields.io/badge/DevFest-2025-blue?style=for-the-badge&logo=google)](https://developers.google.com/community/devfest)
 [![Google ADK](https://img.shields.io/badge/Google-ADK-4285F4?style=for-the-badge&logo=google)](https://google.github.io/adk-docs/)
