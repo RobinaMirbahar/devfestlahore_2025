@@ -503,14 +503,6 @@ Google Developer Expert (GDE) — AI + Cloud
 [![GitHub stars](https://img.shields.io/github/stars/RobinaMirbahar/devfestlahore_2025?style=social)](https://github.com/RobinaMirbahar/devfestlahore_2025)
 
 
-## 🎉 Workshop Feedback
-
-**We'd love to hear from you!**
-
-📝 [Post-Workshop Survey](https://forms.gle/your-survey-link)
-
-Your feedback helps us improve future workshops!
-
 ---
 
 ## 🧹 Cleanup (Optional)
