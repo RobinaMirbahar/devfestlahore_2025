@@ -5,6 +5,47 @@
 [![Python 3.12+](https://img.shields.io/badge/Python-3.12+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
+> **Author & Architect:** [Robina Mirbahar](https://github.com/RobinaMirbahar) (Google Developer Expert in Cloud & AI)  
+> **Focus:** Budget-Smart Multi-Agent Travel Assistant Built with Google Agent Development Kit (ADK) & Vertex AI
+
+---
+
+## 🎯 Why I Built TravelMate AI — DevFest Lahore 2025 Workshop (Engineering Purpose & Real-World Value)
+
+### 1. ✈️ Teaching Production Multi-Agent Orchestration Live on Stage
+I created TravelMate AI for my DevFest Lahore 2025 hands-on workshop to teach developers how to decompose complex user goals into specialized sub-agents using the Google Agent Development Kit (ADK).
+
+### 2. 💵 Deterministic Budget & Itinerary Optimization
+Instead of generating vague travel blogs, my multi-agent pipeline coordinates a Flight/Route Scout, Accommodation Optimizer, and Budget Auditor that enforce hard currency and schedule constraints.
+
+### 3. ☁️ Ready for Vertex AI & Cloud Run Deployment
+Every workshop step is structured so attendees can go from local ADK agent execution to cloud deployment in under 45 minutes.
+
+---
+
+## 🏗️ System Architecture
+
+```mermaid
+flowchart TD
+    subgraph User ["1. Traveler Request"]
+        U_Req["Destination, Dates, Interests & Hard Budget Cap"]
+    end
+    subgraph ADK ["2. TravelMate Google ADK Multi-Agent Team"]
+        A_Root["Coordinator Agent (Root Orchestrator)"]
+        A_Route["Route & Transit Planner Sub-Agent"]
+        A_Stay["Accommodation & Dining Sub-Agent"]
+        A_Budget["Deterministic Budget Guardrail Tool"]
+    end
+    subgraph Out ["3. Verified Travel Blueprint"]
+        O_Plan["Day-by-Day Itinerary + Line-Item Cost Breakdown"]
+    end
+    U_Req --> A_Root
+    A_Root --> A_Route & A_Stay
+    A_Route & A_Stay --> A_Budget --> O_Plan
+```
+
+---
+
 > 🎓 **Built with Google's Agent Development Kit (ADK)** at DevFest 2025
 > 
 > A hands-on workshop teaching students to build intelligent AI agents from scratch.
@@ -549,3 +590,22 @@ gcloud projects delete YOUR_PROJECT_ID
 <div align="center">
   <img src="https://raw.githubusercontent.com/RobinaMirbahar/RobinaMirbahar/main/ProfileImages/GithubBanner.svg" alt="Robina Mirbahar Banner" width="100%" />
 </div>
+
+<!-- AUTHOR_SIGNATURE_START -->
+---
+
+## 👩‍💻 About the Author
+
+**Robina Mirbahar — Google Cloud & AI Architect**  
+*Google Developer Expert (GDE) in Cloud & AI • Published Author • Multi-Agent Systems & Serverless GPU Builder*
+
+[![GitHub](https://img.shields.io/badge/GitHub-RobinaMirbahar-181717?style=for-the-badge&logo=github)](https://github.com/RobinaMirbahar)
+[![Medium](https://img.shields.io/badge/Medium-@robinamirbahar-000000?style=for-the-badge&logo=medium)](https://medium.com/@robinamirbahar)
+[![DEV.to](https://img.shields.io/badge/DEV.to-robinamirbahar-0A0A0A?style=for-the-badge&logo=devdotto)](https://dev.to/robinamirbahar)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Robina_Mirbahar-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/robina-mirbahar)
+[![GDE Profile](https://img.shields.io/badge/Google_Developer_Expert-Profile-4285F4?style=for-the-badge&logo=google)](https://g.dev/RobinaMirbahar)
+[![YouTube](https://img.shields.io/badge/YouTube-@RobinaMirbahar-FF0000?style=for-the-badge&logo=youtube)](https://www.youtube.com/@RobinaMirbahar)
+[![X](https://img.shields.io/badge/X-@RobinaMirbahar-000000?style=for-the-badge&logo=x)](https://x.com/RobinaMirbahar)
+[![Amazon Author](https://img.shields.io/badge/Amazon_Book-Cloud_Computing_Voyage-FF9900?style=for-the-badge&logo=amazon)](https://www.amazon.com/dp/B0D146249R)
+
+<!-- AUTHOR_SIGNATURE_END -->
